@@ -14,7 +14,7 @@ class Distribution():
         '''
         self.data = []
         self.mean = 0.0
-        self.stddev = 0.0
+        self.stddev = 1.0
 
     def calc_mean(self):
         return self.mean
